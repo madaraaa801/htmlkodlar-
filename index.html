@@ -2,82 +2,101 @@
 <html>
 <head>
   <title>HTML Etiketleri</title>
+  <style>
+    body {
+      background-image: url('https://i.imageupload.app/6916b6542f3e8bec4e1f.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      font-family: Arial;
+    }
+    u {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #ffdd57;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-<style>
-  body {
-  background-image: url('https://i.imageupload.app/6916b6542f3e8bec4e1f.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  }
-</style>
+
   <!-- Başlıklar -->
-  <h1>h1=Başlık 1 (En büyük)</h1>
-  <h2>h2=</h2>Başlık 2</h2>
-  <h3>h3=Başlık 3</h3>
-  <h4>h4=Başlık 4</h4>
-  <h5>h5=Başlık 5</h5>
-  <h6>h6=Başlık 6 (En küçük)</h6>
+  <h1>h1 = Başlık 1 (En büyük)</h1>
+  <h2>h2 = Başlık 2</h2>
+  <h3>h3 = Başlık 3</h3>
+  <h4>h4 = Başlık 4</h4>
+  <h5>h5 = Başlık 5</h5>
+  <h6>h6 = Başlık 6 (En küçük)</h6>
 
   <!-- Paragraf -->
-  <p>p=Bu bir paragraf yazısıdır.</p>
+  <p>p = Bu bir paragraf yazısıdır.</p>
 
   <!-- Kalın yazı -->
-  <b>b=Bu kalın yazıdır</b><br>
+  <b>b = Bu kalın yazıdır</b><br>
 
   <!-- İtalik yazı -->
-  <i>i=Bu italik yazıdır</i><br>
+  <i>i = Bu italik yazıdır</i><br>
 
   <!-- Altı çizili yazı -->
-  <u>u=Bu altı çizili yazıdır</u><br>
+  <u>u = Bu altı çizili yazıdır</u><br>
 
   <!-- Satır sonu (boşluk bırakır) -->
   <br>
-
-  <u>NOT!=br kodu satır boşluk bırakmaya yarar</u>
+  <u>NOT: br kodu satır boşluk bırakmaya yarar</u>
 
   <!-- Görsel -->
   <img src="https://via.placeholder.com/150" alt="Örnek Resim">
-  <u>videoda göstereceğim img kodu resim katmaya yarar</u>
+  <u>Videoda göstereceğim img kodu, resim eklemeye yarar.</u>
+
   <!-- Bağlantı -->
-  <a href="https://www.google.com">Google'a Git</a>
-  <u> videoya kattığım a kodu link katmaya yarar</u>
+  <a href="https://www.google.com" target="_blank">Google'a Git</a>
+  <u>Videoda anlatacağım a etiketi, link eklemeye yarar.</u>
+
   <!-- Buton -->
-  <button>Butona Tıkla</button>
-  <u> videoya katığım button kodu buton koymaya yarar</u>
+  <button onclick="alert('Merhaba, butona tıkladın!')">Butona Tıkla</button>
+  <u>Videoda göstereceğim button etiketi, buton eklemeye yarar.</u>
+
   <!-- Yatay çizgi -->
   <hr>
-  <u> videoya kattığım hr kodu yatay çizgi katmaya yarar</u>
+  <u>Videoda göstereceğim hr etiketi, yatay çizgi çizer.</u>
+
   <!-- Liste - Sırasız -->
   <ul>
     <li>Elma</li>
     <li>Armut</li>
     <li>Kiraz</li>
   </ul>
-  <ul> bunları yapacağımız ul kod kullanımı videoda vardır</ul>
+  <u>Videoda anlatacağım ul etiketi, sırasız liste yapar.</u>
+
   <!-- Liste - Sıralı -->
   <ol>
     <li>Birinci</li>
     <li>İkinci</li>
     <li>Üçüncü</li>
-    <li> Liste-Sıralı yapmak videoda vardır üstteki kodla aynı mantıktır</li>
   </ol>
+  <u>Videoda anlatacağım ol etiketi, sıralı liste yapar.</u>
 
   <!-- Giriş Kutusu -->
   <input type="text" placeholder="Adınızı girin">
-  <u>Videoda yapacağımız input kodu giriş kutusu yapmaya yarıyacaktır</u>
+  <u>Videoda anlatacağım input etiketi, giriş kutusu oluşturur.</u>
+
   <!-- Form -->
   <form>
     <label>Ad:</label>
-    <input type="text">
-    <br>
+    <input type="text"><br><br>
     <label>Şifre:</label>
-    <input type="password">
-    <br>
+    <input type="password"><br><br>
     <input type="submit" value="Gönder">
   </form>
-  <u> videoya katacağım form kodu form yapmaya yarıyacaktır</u>
-  <p>EKSTRA BUTONA BASINCA EKRANA UYARI ŞEKLİNDE GELEN NOT VB.BONUS ŞEYLER VİDEOYA KATACAĞIM KANAL LINKI İÇİN ALTTAKİ TUŞA BAS</p>
+  <u>Videoda göstereceğim form etiketi, giriş formu oluşturmaya yarar.</u>
+
+  <p>Bonus: Butona basınca ekrana uyarı çıkaran özel özellikler video sonunda gösterilecek!</p>
+  <p>Kanal linki için butona bas:</p>
+  <button onclick="window.location.href='https://www.youtube.com/'">Kanalı Aç</button>
+
 </body>
 </html>
