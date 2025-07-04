@@ -11,14 +11,34 @@
       color: white;
       font-family: Arial;
     }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
     u {
       display: block;
       margin-bottom: 20px;
       font-size: 14px;
       color: #ffdd57;
     }
+
     h1, h2, h3, h4, h5, h6 {
       margin-top: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        background-size: cover;
+        background-position: center;
+      }
+
+      img {
+        max-width: 90%;
+      }
     }
   </style>
 </head>
